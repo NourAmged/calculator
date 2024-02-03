@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    background-color: rgb(23, 172, 172);
+    justify-content: center;
+    align-items: center;
+    
+}
+#clear,#delete{
+    margin: auto;
+    padding: 23px 42px 23px 42px;
+}
+.calculator-grid{
+    flex-wrap: wrap;
+    width:382px;
+    height: 720px;
+    text-overflow: break-word;
+    margin-top: 36px;
+    background-color: rgb(59, 57, 57);
+    border-radius: 10px;
+}
+.screen{
+    display: flex;
+    width: 372px;
+    height: 120px;
+    justify-content: flex-end;
+    align-items:center;
+    color: white;
+    font-size: 48px;
+}
+.subScreen{
+    display: flex;
+    font-size: 24px;
+    color:white;
+    width: 372px;
+    height: 60px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    height: 540px;
+    width: 382px;
+}
+.DandC{
+    display: flex;
+    justify-content: space-evenly;
+    width: 382px;
+    height: 120px;
+}
+#delete{
+    color: blue;
+    font-weight: 500;
+    background-color: rgb(59, 57, 57);
+    font-size: 20px;
+    border: none;
+}
+#clear{
+    color: red;
+    font-weight: 500;
+    background-color: rgb(59, 57, 57);
+    font-size: 20px;
+    border: none;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: 382px;
+    height: 420px;
+}
+div.colm1 > button, div.colm2 > button, div.colm3 > button,div.colm4 > button{
+    display: flex;
+    padding: 41px;    
+    font-size: 16px;
+    background-color: rgb(59, 57, 57);
+    color: white;
+    border: none;
+}
+
+div.colm1 > button:hover, div.colm2 > button:hover, div.colm3 > button:hover,div.colm4 > button:hover,#clear:hover,#delete:hover{
+    background-color: gray;
+}
+div.colm1 > button:active, div.colm2 > button:active, div.colm3 > button:active,div.colm4 > button:active{
+    background-color: darkgray;
+}
